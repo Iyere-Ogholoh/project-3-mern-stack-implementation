@@ -82,6 +82,66 @@ update npm
 
 ###INSTALL EXPRESSJS
 
+`npm install express`
+
+![installing expressjs](./images/installing-express-js/installing-expressjs.png)
+
+create file index.js
+
+`touch index.js`
+
+![creating file index.js](./images/installing-express-js/creating-file-index.js.png)
+
+`ls`
+
+![confirming index.js file was created](./images/installing-express-js/confirming-index.js-created.png)
+
+install the dotenv module
+
+`npm install dotenv`
+
+![installing dotenv module](./images/installing-express-js/installing.dotenv-module.png)
+
+open index.js file
+
+`vim index.js`
+
+![pasting code in vim](./images/installing-express-js/pasting-code-in-vim.png)
+
+ start our server to see if it works. Open your terminal in the same directory as your index.js file and type: node index.js
+
+ `node index.js`
+
+![starting server to see if it works](./images/installing-express-js/starting-server-to-see-it-it-works.png)
+
+edit inbound rules in AWS console
+
+![editing security groups inbound rules](./images/installing-express-js/editing-inbound-security-group-rules.png)
+
+[opening url with public IP in browser](http://3.70.240.168:5000/)
+
+![opening url with public IP](./images/installing-express-js/opening-url-public-ip.png)
+
+create routes that will define various endpoints that the To-do app will depend on
+
+`mkdir routes`
+
+change dirctory to routes directory
+
+`cd routes`
+
+create a file api.js
+
+`touch api.js`
+
+open the file api.js with vim
+
+`vim api.js`
+
+paste code with vim
+
+![pasting code with vim](./images/installing-express-js/pasting-code-in-vim-2.png)
+
 
 
 
